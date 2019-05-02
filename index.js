@@ -4,7 +4,7 @@ function rando() {
     Math.random() * 4
   );
 }
-setInterval(rando, 500);
+setInterval(rando, 1000);
 var count = 000;
 document.getElementById("smile").addEventListener("click", click);
 function click() {
